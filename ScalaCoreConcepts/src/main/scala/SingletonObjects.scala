@@ -2,7 +2,7 @@ import java.util._
 import java.io._
 object appConfig {
   private val prop = new Properties();
-  prop.load(new FileInputStream("C:\\Users\\Devesh\\ProofOfConcepts\\ScalaCoreConcepts\\src\\config.properties"));
+  prop.load(new FileInputStream("C:\\Users\\Devesh\\ProofOfConcepts\\myscala\\ScalaCoreConcepts\\src\\config.properties"));
   def config = prop
 
   def main(args:Array[String]): Unit = {
